@@ -2,8 +2,9 @@
 
 Two separate terminal windows/tabs, since both need to run at the same time.
 Backend (Laravel) — in backend:
-php artisan serve --port=8000
 composer install
+php artisan serve --port=8000
+
 
 Frontend (React/Vite) — in frontend:
 One-time setup if you ever get a fresh clone of this project (new machine, or after deleting node_modules/vendor): run composer install in backend/ and npm install in frontend/ before the commands above.npm run dev
