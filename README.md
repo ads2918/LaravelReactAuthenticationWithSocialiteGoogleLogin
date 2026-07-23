@@ -1,5 +1,6 @@
-Two separate terminal windows/tabs, since both need to run at the same time.
+composer install
 
+Two separate terminal windows/tabs, since both need to run at the same time.
 Backend (Laravel) — in backend:
 php artisan serve --port=8000
 
